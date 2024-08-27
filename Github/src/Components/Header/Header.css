@@ -1,0 +1,115 @@
+
+.brand{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 250px;
+    
+    }
+    .devfinder{
+        font-size: 10px;
+    }
+.profile-card {
+    background-color: #1F2A48;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1F2A48;
+
+  }
+  
+  .search input {
+    width: 70%;
+    padding: 10px;
+    background-color: #1F2A48;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    color: white;
+  }
+  
+  .search button {
+    padding: 10px 20px;
+    background-color: #0079FF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .profile-details {
+    flex: 1;
+    margin-left: 15px;
+    text-align: left;
+  }
+  .profile-details h5{
+    color:#0079FF;
+    margin: 10px;
+
+  }
+  .profile-details p{
+    margin: 30px  0;
+  }
+
+  .profile-details h4{margin-bottom: 0;}
+  .profile p{
+    margin-top: 0;
+    font-size: 13px;
+    color:wheat
+  }
+
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 70px;
+    background-color:rgba(21, 7, 7, 0.661);
+    width:350px;
+border-radius: 10px;  }
+  
+  .stat p {
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .stat h3 {
+    margin: 5px 0;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    opacity: 0.8;
+    color: white;
+  }
+  .contact img{
+    color:white
+  }
+.header.light{background-color: white;}
+.profile-card.light{
+    background-color: white;
+}
